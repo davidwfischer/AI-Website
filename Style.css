@@ -317,7 +317,7 @@ span {
     text-decoration: underline;
 }
 
-#carouselpictures {
+.carouselpictures {
     background: none;
     margin-top: 5rem;
     margin-left: 26rem;
@@ -330,7 +330,7 @@ span {
 
 
 
-#carouselpictures:hover {
+.carouselpictures:hover {
     max-width: 25%;
     margin-top: 5rem;
     margin-left: 37rem;
