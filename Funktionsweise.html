@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Funktionsweise</title>
+    <title>Functionality</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Style.css">
@@ -17,60 +17,65 @@
         <a href="Arten.html">→ </a>
     </nav>
     <h1>Funktionsweisen</h1>
-    <h2>Wie funktionieren Large Language Models?</h2>
+    <h2>How does Large Language Models works?</h2>
     <p>
     <ol>
         <p>
-            <li>Architektur: Transformer-Netzwerke</li>
+            <li>Architektur: Transformer-Network</li>
         <ul>
-            <li> Die meisten Large Language Models verwenden die Transformer-Architektur. Transformer ist eine Art
-                neuronales Netzwerk, das sich gut für die Verarbeitung von Sequenzen eignet, wie es bei Sprache der Fall
-                ist.</li>
+            <li> Most Large Language Models use the Transformer architecture.which is designed for sequence-to-sequence tasks such as machine translation. With encoder and decoder stacks, residual connections and positional encoding, the Transformer enables complex processing of sequences and has achieved impressive results in natural language processing.</li>
+        </ul>
+        <img id="Transformer" src="TRANSFORMER.png" alt="">
+
+        </p>
+
+        <p>
+            <li>
+                Embeddings: Encoding Words and Context</li>
+        <ul>
+            <li>Words are converted into vectors called embeddings. These vectors capture the correct
+                Meaning of words and their context.</li>
         </ul>
         </p>
         <p>
-            <li>Aufbau von Embeddings: Kodierung von Wörtern und Kontext</li>
+            <li>
+                Self-attention mechanism: processing context</li>
         <ul>
-            <li>Wörter werden in Vektoren, sogenannte Embeddings, umgewandelt. Diese Vektoren erfassen die semantische
-                Bedeutung von Wörtern und ihren Kontext.</li>
+            <li>The cornel of the Transformer model is the self-attention mechanism. This makes it possible
+                Model to focus on different parts of the input sequence and better understand the context
+                </li>
         </ul>
         </p>
         <p>
-            <li>Selbst-Aufmerksamkeitsmechanismus: Verarbeitung von Kontext</li>
+            <li> Pre-training on large data sets </li>
         <ul>
-            <li>Der Kern des Transformer-Modells ist der Selbst-Aufmerksamkeitsmechanismus. Dieser ermöglicht es dem
-                Modell, sich auf verschiedene Teile des Eingabesequenz zu konzentrieren und den Kontext besser zu
-                verstehen.</li>
+            <li>The model is first pre-trained on a huge data set consisting of texts.The model is first pre-trained on a huge data set consisting of texts. It learns to understand patterns and structures in the language without being specifically trained for a particular task.</li>
         </ul>
         </p>
         <p>
-            <li>Vorabtraining: Pre-training auf großen Datensätzen </li>
+            <li>
+                Adaptation to specific tasks:</li>
         <ul>
-            <li>Das Modell wird zunächst auf einem riesigen Datensatz vorab trainiert, der aus Texten besteht. Dabei
-                lernt es, Muster und Strukturen in der Sprache zu verstehen, ohne spezifisch auf eine bestimmte Aufgabe
-                trainiert zu werden.</li>
-        </ul>
-        </p>
-        <p>
-            <li>Feinabstimmung: Anpassung an spezifische Aufgaben</li>
-        <ul>
-            <li> Nach dem Vorabtraining wird das Modell für spezifischere Aufgaben feinabgestimmt. Dies kann die
-                Anpassung an bestimmte Textarten, Übersetzungen oder andere NLP-Aufgaben umfassen.
+            <li> After training, the model is fine-tuned for specific tasks. This can include adapting to specific text types, translations, or other tasks.
+
             </li>
         </ul>
         </p>
         <p>
-            <li>Anwendungsbereiche: Vielfältige NLP-Aufgaben</li>
+            <li>
+                Areas of application: Diverse tasks</li>
         <ul>
-            <li>Large Language Models können für verschiedene NLP-Aufgaben wie Textgenerierung, Übersetzung,
-                Frage-Antwort-Systeme, Sentimentanalyse und mehr eingesetzt werden.</li>
+            <li>
+                Large Language Models can be used for various tasks such as text generation, translation,
+                Question and answer systems, analysis and more can be used.</li>
         </ul>
         </p>
         <p>
-            <li>Kontextverständnis: Lernen von langfristigen Abhängigkeiten</li>
+            <li>Contextual understanding: Learning from long-term dependencies</li>
         <ul>
-            <li>Durch den Selbst-Aufmerksamkeitsmechanismus können diese Modelle auch langfristige Abhängigkeiten im
-                Kontext verstehen, was dazu beiträgt, dass sie besser auf komplexe Anfragen reagieren können.
+            <li>
+                Through the self-attention mechanism, these models can also detect long-term dependencies
+                Understand context, which helps them better respond to complex requests.
             </li>
         </ul>
         </p>

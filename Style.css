@@ -1,6 +1,6 @@
 * {
-
     background: linear-gradient(to right, #1F7AB3, #195D8C, #0C375A, #081F3F, #041334);
+   background-image: url("background.jpg");
     font-family: Bold;
 
 }
@@ -45,7 +45,8 @@ h2 {
     font-style: italic;
     transition: color 0.3s, font-size 0.3s;
     box-shadow: rgb(51, 51, 51) 0.2rem 0.2rem 0.2rem;
-
+padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 
@@ -62,10 +63,12 @@ h2 {
     background-color: #041334;
     border: 0rem solid #041334;
     border-style: outset;
+    border-radius: 1.2rem;
+    padding-right: 1rem;
     text-decoration: none;
     color: #cccccca6;
     font-size: 0rem;
-    margin-right: 100.8rem;
+    margin-right: 82rem;
     margin-left: 0rem;
     font-weight: bold;
     font-style: italic;
@@ -76,7 +79,7 @@ h2 {
     border-radius: 1.2rem;
     background-color: #041334;
     margin-top: -0rem;
-    margin-right: 80rem;
+    margin-right:70rem;
     margin-left: 1.5rem;
     font-size: 200%;
     box-shadow: rgb(51, 51, 51) 0.2rem 0.2rem 0.2rem;
@@ -88,11 +91,12 @@ h2 {
     background-color: #041334;
     border: 0rem solid #041334;
     border-style: outset;
+    border-radius: 1.2rem;
     text-decoration: none;
     color: #cccccca6;
     font-size: 0rem;
     margin-left: 0rem;
-    margin-right: 104.43rem;
+    margin-right: 90rem;
     font-weight: bold;
     font-style: italic;
     transition: color 0.3s, font-size 0.3s;
@@ -102,6 +106,7 @@ h2 {
 #content a:hover+#p2 {
     border-radius: 1.2rem;
     background-color: #041334;
+    border-radius: 1.2rem;
     margin-top: -0rem;
     margin-right: 80rem;
     margin-left: 1.5rem;
@@ -115,11 +120,12 @@ h2 {
     background-color: #041334;
     border: 0rem solid #041334;
     border-style: outset;
+    border-radius: 1.2rem;
     text-decoration: none;
     color: #cccccca6;
     font-size: 0rem;
     margin-left: 0rem;
-    margin-right: 93.7rem;
+    margin-right: 83rem;
     font-weight: bold;
     font-style: italic;
     transition: color 0.3s, font-size 0.3s;
@@ -130,7 +136,7 @@ h2 {
     border-radius: 1.2rem;
     background-color: #041334;
     margin-top: -0rem;
-    margin-right: 80rem;
+    margin-right: 70rem;
     margin-left: 1.5rem;
     font-size: 200%;
     box-shadow: rgb(51, 51, 51) 0.2rem 0.2rem 0.2rem;
@@ -145,22 +151,20 @@ h2 {
     color: #cccccca6;
     font-size: 0rem;
     margin-left: 0rem;
-    margin-right: 104.04rem;
+    margin-right: 95rem;
     font-weight: bold;
     font-style: italic;
     transition: 0.3s;
-
 }
 
 #content a:hover+#p4 {
     border-radius: 1.2rem;
     background-color: #041334;
     margin-top: -0rem;
-    margin-right: 80rem;
+    margin-right: 68rem;
     margin-left: 1.5rem;
     font-size: 200%;
     box-shadow: rgb(51, 51, 51) 0.2rem 0.2rem 0.2rem;
-
 }
 
 
@@ -174,9 +178,12 @@ p {
 }
 
 #img1 {
+    border-radius: 1.2rem;
     background: none;
-    margin-left: 40rem;
+    margin-left: 37rem;
     margin-top: -10rem;
+    width: 25%;
+    height:auto;
 }
 
 ul,
@@ -210,6 +217,8 @@ li {
     margin-left: 70rem;
     margin-top: -8rem;
     border-radius: 1.2rem;
+    box-shadow: rgb(51, 51, 51) 0.2rem 0.2rem 0.2rem;
+
     size: 0.2rem;
 }
 
@@ -239,20 +248,9 @@ li {
     transition: 0.5s ease-in-out;
 }
 
-.container:active {
-    background: none;
-    background-color: #181818;
-    margin-left: 20rem;
-    margin-top: -1.5rem;
-    border-radius: 1.2rem;
-    max-width: 70%;
-    height: auto;
-    transition: 0.5s ease-in-out;
-    box-shadow: rgb(51, 51, 51) 0.2rem 0.2rem 0.2rem;
-position: sticky;
-}
 
-#img5:hover{
+
+#img5:active{
     max-width: 25%;
     margin-top: 1rem;
     font-size: 1.2rem;
@@ -330,18 +328,17 @@ span {
 
 
 
-.carouselpictures:hover {
+.carouselpictures:active {
     max-width: 25%;
     margin-top: 5rem;
     margin-left: 37rem;
 }
-
 .p1 {
     background-color: #232729;
     padding: 1rem;
     max-width: 25%;
     font-size: 1.2rem;
-    margin-top: 5rem;
+    margin-top: 5.71rem;
     margin-left: 37rem;
     border-radius: 1.2rem;
     box-shadow: rgb(51, 51, 51) 0.2rem 0.2rem 0.2rem;
@@ -404,4 +401,18 @@ span {
     margin-left: 37rem;
     border-radius: 1.2rem;
     box-shadow: rgb(51, 51, 51) 0.2rem 0.2rem 0.2rem;
+}
+#Transformer {
+    border-radius: 1.2rem;
+    margin-left: 25rem;
+    margin-top: 1rem;
+    width: 25%;
+    height: auto;
+    box-shadow: rgb(51, 51, 51) 0.2rem 0.2rem 0.2rem;
+    transition: 0.5s ease-in-out;
+}
+#Transformer:hover{
+    width: 50%;
+    margin-left:20rem;
+    height: auto;
 }
